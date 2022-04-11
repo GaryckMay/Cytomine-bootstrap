@@ -48,4 +48,4 @@ grails.messageBrokerServerURL='rabbitmq:5672'
 grails.serverID='$SERVER_ID'
 
 grails.plugin.springsecurity.failureHandler.ajaxAuthFailUrl = "${grails.serverURL}/login/authfail?ajax=true"
-grails.plugin.springsecurity.failureHandler.ajaxAuthFailUrl = "${grails.serverURL}/login/ajaxSuccess"
+grails.plugin.springsecurity.successHandler.ajaxSuccessUrl = "${grails.serverURL}/login/ajaxSuccess?ajax=true"
