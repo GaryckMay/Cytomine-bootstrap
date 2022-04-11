@@ -46,3 +46,6 @@ grails.mongo.options.threadsAllowedToBlockForConnectionMultiplier=5
 grails.messageBrokerServerURL='rabbitmq:5672'
 
 grails.serverID='$SERVER_ID'
+
+grails.plugin.springsecurity.failureHandler.ajaxAuthFailUrl = “${grails.serverURL}/login/authfail?ajax=true”
+grails.plugin.springsecurity.failureHandler.ajaxAuthFailUrl = “${grails.serverURL}/login/authfail?ajax=true”
